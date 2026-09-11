@@ -68,8 +68,6 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![Lab Architecture](./1-screenshot-title-image.png)
-
 The current laboratory consists of a Windows host running Kali Linux inside VirtualBox.
 
 ```text
@@ -156,8 +154,6 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 ```
 
-![NAT Network Configuration](./2-screenshot-network-settings-1.png)
-
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
 This allows future attacker and target VMs to communicate within the isolated laboratory environment.
@@ -181,8 +177,6 @@ The Kali VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-
-![Kali Linux Virtual Machine](./3-screenshot-kali-linux.png)
 
 Additional VirtualBox integration settings were configured:
 
@@ -232,8 +226,6 @@ The IP configuration was verified using:
 ```bash
 ip a
 ```
-
-![Kali Network Configuration](./4-screenshot-kali-network-settings.png)
 
 A consistent IP address makes it easier to document the laboratory and reference the Kali machine during future cybersecurity exercises.
 
