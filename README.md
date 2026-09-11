@@ -173,6 +173,7 @@ Adapter 1
 Attached to: NAT Network
 Network:     NatNetwork
 ```
+![Kali Adapter 1 - NAT Network](./kali-adapter.png)
 
 The Kali VM was allocated:
 
@@ -188,6 +189,7 @@ Drag & Drop:  Bidirectional
 Shared Folder: Downloads
 Auto-mount:    Enabled
 ```
+![Shared Clipboard Settings](./shared-clipboard.png)
 
 These settings make it easier to transfer files and tools between the Windows host and Kali Linux VM.
 
@@ -278,6 +280,7 @@ ping google.com
 Successful replies confirm that DNS resolution is functioning.
 
 ---
+![Ping Connectivity Test](./ping-test.png)
 
 ## Step 6. Create a Clean VM Snapshot
 
